@@ -1,0 +1,101 @@
+{
+	"organization":{
+		"code":"demo",
+		"id":"5c668e0f2f7cf87d8c5bf280"
+	},
+	"sites":[
+		{
+			"id":"5c668e0f2f7cf87d8c5bf280",
+			"code":"hq",
+			"main":true,
+			"status":"enabled|disabled"
+		},
+		{
+			"id":"5c668e0f2f7cf87d8c5bf280",
+			"code":"australia",
+			"status":"enabled|disabled"
+		}
+	], 
+	"clients":[
+	
+		{
+			"id":"5c668e0f2f7cf87d8c5bf280",
+			"code":"AU-Server",
+			"status":"online|disabled|offline|disabled-offline",
+			"site":"australia",
+			"user":"demo.admin@accsyn.com",
+			
+			"location":{
+	            "isp" : "Beam Telecom Pvt Ltd", 
+	            "ip" : "183.82.5.35", 
+	            "currency" : "Indian Rupee", 
+	            "longitude" : "78.486671", 
+	            "country_code" : "IN", 
+	            "currency_plural" : "Indian rupees", 
+	            "timezone" : "Asia/Calcutta", 
+	            "continent" : "Asia", 
+	            "city" : "Hyderabad", 
+	            "latitude" : "17.385044", 
+	            "type" : "IPv4", 
+	            "country_phone" : "+91", 
+	            "continent_code" : "AS", 
+	            "country_flag" : "https://cdn.ipwhois.io/flags/in.svg", 
+	            "country_capital" : "New Delhi", 
+	            "org" : "Beam Telecom Pvt Ltd", 
+	            "asn" : "AS18209", 
+	            "success" : true, 
+	           "country" : "India", 
+	            "region" : "Telangana", 
+	            "country_neighbours" : "CN,NP,MM,BT,PK,BD", 
+	            "completed_requests" : 104, 
+	            "currency_rates" : "71.491505", 
+	            "timezone_gmt" : "GMT +5:00", 
+	            "timezone_dstOffset" : "0", 
+	            "currency_symbol" : "₹", 
+	            "timezone_name" : "India Standard Time", 
+	            "currency_code" : "INR", 
+	            "timezone_gmtOffset" : "19800"
+	        }
+		}
+	], 
+	"users":[
+		{
+			"id":"5c668e0f2f7cf87d8c5bf280",
+			"code":"demo.admin@accsyn.com",
+			"clearance":"admin",
+			"description":"Admin user"
+		},
+		{
+			"id":"5c668e0f2f7cf87d8c5bf280",
+			"code":"alireza@user.com",
+			"clearance":"user",
+			"description":"Test user"
+		}
+	],
+	"jobs":[
+		{
+			"id":"12",
+			"code":"namn", 
+			"status":"init|pending|waiting|RUNNING|paused|aborted|done|failed", 
+			"source":"organization:5c668e0f2f7cf87d8c5bf280",	
+			"destination":"site:5c668e0f2f7cf87d8c5bf280",
+			"size":"498428902",
+			"speed":11.3,
+			"progress":56.2,
+			"user":"5c668e0f2f7cf87d8c5bf280",
+			"description":"Example running download from HQ to Australia."
+		},
+		{
+			"id":"12",
+			"code":"namn", 
+			"status":"init|pending|waiting|running|PAUSED|aborted|done|failed", 
+			"source":"user:5c668e0f2f7cf87d8c5bf280",	
+			"destination":"organization:5c668e0f2f7cf87d8c5bf280",
+			"size":"498428902",
+			"speed":-1,
+			"progress":12.9,
+			"user":"5c668e0f2f7cf87d8c5bf280",
+			"description":"Example PAUSED upload from user to HQ."
+		}	
+	]
+}
