@@ -6,7 +6,7 @@ function Map() {
 return (
 <GoogleMap
  defaultZoom = {10}
- defaultCenter= {{lat : 45.421532, lng : -75.697189 }}
+ defaultCenter= {{lat :17.385044, lng : 78.486671 }}
  >
    {ExampleData.clients.map((client) => (
      <Marker key={client.location.ip} position = {{lat : client.location.latitude, 
