@@ -9,7 +9,7 @@ return (
  defaultCenter= {{lat :17.385044, lng : 78.486671 }}
  >
    {ExampleData.clients.map((client) => (
-     <Marker key={client.location.ip} position = {{lat : client.location.latitude, 
+     <Marker key={client.code} position = {{lat : client.location.latitude, 
       lng : client.location.longitude }}
       />
 

@@ -24,18 +24,19 @@
 			"status":"online|disabled|offline|disabled-offline",
 			"site":"australia",
 			"user":"demo.admin@accsyn.com",
+		
 			
 			"location":{
 	            "isp" : "Beam Telecom Pvt Ltd", 
 	            "ip" : "183.82.5.35", 
 	            "currency" : "Indian Rupee", 
-	            "longitude" : "78.486671", 
+	            "longitude" : 78.486671, 
 	            "country_code" : "IN", 
 	            "currency_plural" : "Indian rupees", 
 	            "timezone" : "Asia/Calcutta", 
 	            "continent" : "Asia", 
 	            "city" : "Hyderabad", 
-	            "latitude" : "17.385044", 
+	            "latitude" : 17.385044, 
 	            "type" : "IPv4", 
 	            "country_phone" : "+91", 
 	            "continent_code" : "AS", 
@@ -55,7 +56,13 @@
 	            "timezone_name" : "India Standard Time", 
 	            "currency_code" : "INR", 
 	            "timezone_gmtOffset" : "19800"
-	        }
+			},
+			"geometry" : {
+				"type": "Point",
+				"coordinates": [17.385044, 78.486671]
+
+			}
+			
 		}
 	], 
 	"users":[
