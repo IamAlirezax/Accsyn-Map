@@ -1,15 +1,24 @@
 import React, { useState } from "react";
 import { GoogleMap , withScriptjs,withGoogleMap, Marker, InfoWindow } from "react-google-maps" ;
 import * as ExampleData from "./data/mock.json";
+import mapStyle from "./mapStyle"
 
 function Map() {
+
   const [selectedClient, setSelectedClient] = useState(null)
+
 return (
+
 <GoogleMap
- defaultZoom = {10}
+ defaultZoom = {3}
  defaultCenter= {{lat :17.385044, lng : 78.486671 }}
+defaultOptions= {{styles : mapStyle}}
+
  >
+
+
    {ExampleData.clients.map((client) => (
+
      <Marker
 
       key={client.code} 
